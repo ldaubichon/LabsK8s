@@ -21,7 +21,7 @@ Bonjour à tous, cette série d'exercice a pour but de vous familiariser avec l'
  1. Essayez de trouver un exemple de daemonset sur le cluster
  2. Créer un déploiement avec une image nginx:1.17 et dont le nom est "derby", assurez vous qu'il soit créé dans le bon namespace (le votre)
  3. Listez votre déploiement
- 4. Augmentez le nombre de réplicas dans votre namespace
+ 4. Augmentez le nombre de réplicas dans votre deploiement
  5. Modifier votre déploiement pour une image nginx:latest
  6. Faites un rollback
 
