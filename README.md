@@ -7,13 +7,16 @@ Bonjour à tous, cette série d'exercice a pour but de vous familiariser avec l'
 # TP1
 ## Pods & Namespaces
 
- 1. Existe-t-il un ou plusieurs pods déjà présent sur le cluster ? 
- 2. Essayez de lister et d'afficher les pods existants 
+ 1. Existe-t-il un ou plusieurs pods déjà présent sur le cluster ? Supprimez le namespace crée lors de la présentation
+ 2. Essayez de lister et d'afficher les pods existants sur tous les namespaces (une commande kubectl existe)
  3. Créer un namespace à votre nom
  4. Créer un pod avec l'image nginx dont le  nom est "Pandora"
  5. Lister uniquement ce pod
- 6. Faites un describe de ce pod 
+ 6. Faites un describe de ce pod
  7. Affichez les informations du pod au format YAML
+ 8. Exportez le .yaml dans un fichier
+ 9. Supprimez ce que vous avez déployé et lancez votre pod via le fichier yaml
+ 10. Lancez un pod avec deux containers à l'intérieur
 
 # TP2
 ## Workloads
