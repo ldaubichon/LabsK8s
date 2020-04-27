@@ -16,7 +16,9 @@ Bonjour à tous, cette série d'exercice a pour but de vous familiariser avec l'
  7. Affichez les informations du pod au format YAML
  8. Exportez le .yaml dans un fichier
  9. Supprimez ce que vous avez déployé et lancez votre pod via le fichier yaml
- 10. Lancez un pod avec deux containers à l'intérieur
+ 10. Lancez un pod busybox avec la commande sleep 3600 à l'intérieur
+ 11. Listez ce pod
+ 12. Supprimez ce pod et lancez un autre pod avec deux containers, nginx et busybox
 
 # TP2
 ## Workloads
